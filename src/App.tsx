@@ -1,5 +1,5 @@
 import React from "react";
-import MovieProvider from "./context/MovieContext";
+import { MovieProvider } from "./context/MovieContext";
 import MovieForm from "./components/MovieForm";
 import MovieList from "./components/MovieList";
 

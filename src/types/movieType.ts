@@ -12,4 +12,4 @@ export interface Movie {
 }
 
 export type NewMovie = Omit<Movie, "id">;
-export type UpdateMovie = Partial<Movie>;
+export type UpdateMovie = Partial<NewMovie>;
